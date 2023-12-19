@@ -1,0 +1,120 @@
+html {
+  background-color: #ffebcd; /* Light orange background */
+  min-height: 1000px;
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Playful font */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  min-height: 95vh;
+}
+
+main {
+  text-align: center;
+  flex: 1 0 auto;
+}
+
+h1 {
+  color: #fff8dc; /* Hot pink heading color */
+  padding: 10px;
+  font-family: "Arial Black", sans-serif; /* Bold font for headings */
+  margin-top: 20px; /* Add space above the heading */
+}
+
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff8dc; /* Light yellow box background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #ff69b4; /* Hot pink heading background */
+  text-align: center;
+}
+
+form.edit {
+  display: flex;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ff69b4; /* Hot pink borders */
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+  margin-left: 0;
+  transform: scale(1.5); /* Larger checkbox */
+}
+
+p {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #008080; /* Teal text color */
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button.add {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #ff69b4; /* Hot pink add button */
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+}
+
+button.edit {
+  margin-left: 0px;
+  margin-right: 20px;
+  border: none;
+  background: none;
+}
+
+.icon {
+  height: 20px;
+}
+
+input[type="text"] {
+  text-align: left;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: #fff8dc; /* Light yellow input background */
+  font-size: 20px;
+  font-weight: 200;
+  width: 80%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #ff69b4; /* Hot pink focus effect */
+}
+
+::placeholder {
+  color: #ffa07a; /* Light salmon placeholder color */
+  opacity: 1;
+}
+
+footer {
+  flex: 0 0 auto;
+  color: #ff69b4; /* Hot pink footer text color */
+  text-align: center;
+}
